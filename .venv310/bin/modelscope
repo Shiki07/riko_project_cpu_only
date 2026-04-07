@@ -1,0 +1,6 @@
+#!/home/ale/Scaricati/riko_project/.venv310/bin/python3.10
+import sys
+from modelscope.cli.cli import run_cmd
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(run_cmd())
